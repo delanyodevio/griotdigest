@@ -1,0 +1,9 @@
+<div class="prime-nav topic-nav" id="topicNav">
+  <ul>
+    {% for category in collections.catList limit:15 %}
+    <li>
+      <a href="/categories/{{ category | slug }}.html">{{ category }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

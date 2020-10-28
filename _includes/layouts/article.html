@@ -26,8 +26,6 @@
           <p>
             <a href="/">Home</a>
             <i class="fa fa-angle-double-right"></i>
-            <a href="/{{ collection | slug }}.html">{{ collectionName }}</a>
-            <i class="fa fa-angle-double-right"></i>
             <a href="/categories/{{ category | slug }}.html">
               {{ category }}
             </a>
@@ -65,8 +63,7 @@
           {{ content | safe }}
 
           <button class="sharer">Share this story</button>
-          {% include components/sharer.html %} {% include
-          components/payments.html %}
+          {% include components/sharer.html %}
         </article>
       </section>
 
@@ -125,8 +122,8 @@
             </a>
           </h3>
           <div>
-            {% for post in collections.cats[category] limit:5 %} {% if post.url
-            == page.url %} {% continue %} {% else %}
+            {% for post in collections.categories[category] limit:5 %} {% if
+            post.url == page.url %} {% continue %} {% else %}
             <a href="{{ post.url | url }}" class="more-card">
               <img src="{{ post.data.thumbnail }}" alt="" />
               <h4>{{ post.data.title | short }}</h4>

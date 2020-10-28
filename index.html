@@ -10,3 +10,31 @@ pagination:
   alias: posts
   reverse: true
 ---
+
+<section>
+  <div class="article-container">
+    {% for blog in posts %}
+    <section class="article-card">
+      <a class="article-link" href="{{ blog.url | url }}">
+        <img src="{{ blog.data.thumbnail }}" alt="{{ blog.data.caption }}" />
+        <h2>{{ blog.data.title }}</h2>
+      </a>
+
+      <p class="footnote">
+        <a href="/authors/{{ blog.data.author | slug }}.html">
+          <i class="fas fa-user"></i>
+          {{ blog.data.author }}.
+        </a>
+        <a href="/categories/{{ blog.data.category | slug }}.html">
+          <i class="fas fa-tags"></i>
+          {{ blog.data.category }}.
+        </a>
+        <time datetime="{{ blog.date | dateIso }}">
+          <i class="fas fa-calendar-alt"></i>
+          {{ blog.data.publishAt | dateReadable }}.
+        </time>
+      </p>
+    </section>
+    {% endfor %}
+  </div>
+</section>
