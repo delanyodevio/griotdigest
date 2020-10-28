@@ -1,0 +1,36 @@
+<footer>
+  <div class="foot-links">
+    <h3 id="footerLinkToggle">Links</h3>
+    <div class="footerLinks" id="footerLinks">
+      <ul>
+        <a href="/contact.html"><li>Contact us</li></a>
+        <a href="/policy/privacy.html"><li>Privacy policy</li></a>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-social">
+    <h3 class="footerContactToggle">Follow Us</h3>
+    <div class="footerContact" id="footerContact">
+      {% include components/social.html %}
+    </div>
+  </div>
+
+  <div class="footer-licence">
+    <h3>Licence</h3>
+    <div class="foot">
+      <small>&copy; Griot Digest, 2019 &ndash;</small>
+      <small id="newYear">
+        <script>
+          document.getElementById(
+            "newYear"
+          ).innerHTML = new Date().getFullYear();
+        </script>
+        All rights reserved.
+        <a href="https://github.com/delanyodevio/griotdigest#readme"
+          >Visit Github page</a
+        >
+      </small>
+    </div>
+  </div>
+</footer>

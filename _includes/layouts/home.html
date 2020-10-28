@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include components/meta.html %}
+    <meta
+      name="google-site-verification"
+      content="rW5oeSe4NbgyRyk17r_PgpxBKo5TUXhyBgABB_gWQI4"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.webp"
+    />
+    <link
+      rel="icon"
+      type="image/webp"
+      sizes="32x32"
+      href="/images/favicon-32x32.webp"
+    />
+    <link
+      rel="icon"
+      type="image/webp"
+      sizes="16x16"
+      href="/images/favicon-16x16.webp"
+    />
+    <link rel="manifest" href="/scripts/site.webmanifest" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/webfonts.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- ** Styles ** -->
+
+    <!-- Scripts -->
+    <!-- <script defer src="/scripts/cookie-message.js"></script> -->
+    <script defer src="/scripts/dropdown.js"></script>
+    <!-- <script defer src="/scripts/searcher.js"></script> -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- ** Scripts ** -->
+
+    <title>{{ headline }}</title>
+  </head>
+  <body class="page-home">
+    <!-- Page header and navigation -->
+    {% include components/header.html %}
+    <!-- ** Page header ** -->
+
+    <!-- Main page -->
+    <main>{{ content | safe }}</main>
+    <!-- ** Main page ** -->
+
+    <!-- Page footer -->
+    {% include components/footer.html %}
+    <!-- ** Page footer ** -->
+
+    <!-- For Netlify Identity -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+    <!-- cookie notice -->
+    <div class="cookie-notice" id="cookie-notice">
+      <p id="cookieMessage">
+        To give you the best user experience, we use cookies. By clicking I
+        Accept or continuing to browse the site, you are accepting their use and
+        agreeing to
+        <a id="cookie-link" href="/policy/privacy.html">privacy policy</a>
+      </p>
+      <button id="cookie-button">I Accept</button>
+    </div>
+  </body>
+</html>

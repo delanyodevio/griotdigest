@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include components/meta.html %}
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="/styles/webfonts.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <!-- ** Styles end ** -->
+
+    <!-- scripts -->
+    {% for script in scripts %}
+    <script defer src="{{ script }}"></script>
+    {% endfor %}
+
+    <script defer src="/scripts/dropdown.js"></script>
+    <!-- ** scripts end ** -->
+
+    <title>{{ headline }}</title>
+  </head>
+  <body class="{{ activePage }}">
+    <!-- Page header-->
+    {% include components/header.html %}
+    <!-- ** Page header ** -->
+
+    <!-- Main page -->
+    <main>{{ content | safe }}</main>
+    <!-- ** Main page ** -->
+
+    <!-- Page footer -->
+    {% include components/footer.html %}
+    <!-- ** Page footer ** -->
+  </body>
+</html>

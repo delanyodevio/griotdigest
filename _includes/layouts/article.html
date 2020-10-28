@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    {% include components/meta-article.html %}
+
+    <!-- Styles -->
+    {% include components/styles.html %}
+    <!-- ** Styles ** -->
+
+    <!-- scripts -->
+    {% include components/scripts.html %}
+    <!-- ** scripts ** -->
+
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <!-- Page header and navigation -->
+    {% include components/header.html %}
+    <!-- ** Page header end ** -->
+
+    <!-- Main page -->
+    <main>
+      <div class="sticky-bar-flex sticky-bar-story">
+        <div class="sticky-bar">
+          <p>
+            <a href="/">Home</a>
+            <i class="fa fa-angle-double-right"></i>
+            <a href="/{{ collection | slug }}.html">{{ collectionName }}</a>
+            <i class="fa fa-angle-double-right"></i>
+            <a href="/categories/{{ category | slug }}.html">
+              {{ category }}
+            </a>
+          </p>
+        </div>
+        <div></div>
+      </div>
+
+      <section>
+        <article>
+          <h2>{{ title }}</h2>
+
+          <small class="article-tag">
+            <a href="/authors/{{ author | slug }}.html">
+              <i class="fas fa-user"></i>
+              {{ author }}.
+            </a>
+            <a href="/categories/{{ category | slug }}.html">
+              <i class="fas fa-tags"></i>
+              {{ category }}.
+            </a>
+            <time datetime="{{ publishAt | dateIso }}">
+              <i class="fas fa-calendar-alt"></i>
+              {{ publishAt | dateReadable }}.
+            </time>
+          </small>
+
+          <figure>
+            <img src="{{ thumbnail }}" alt="{{ caption }}" />
+            <figcaption>{{ caption }}</figcaption>
+          </figure>
+
+          <p class="emphasis summary">{{ summary }}</p>
+
+          {{ content | safe }}
+
+          <button class="sharer">Share this story</button>
+          {% include components/sharer.html %} {% include
+          components/payments.html %}
+        </article>
+      </section>
+
+      <section class="article-flex">
+        <!-- author card -->
+        {% include components/author.html %}
+
+        <div class="comment-card">
+          <!--Comment form component-->
+          <div>
+            <!-- Posted comments -->
+            <div class="posted-comments">
+              <h4>Recent comments</h4>
+              <p class="emphasis no-comment">
+                There are no comments. You can add a comment from the form down
+                bellow.
+              </p>
+              <ul id="posted-comments"></ul>
+            </div>
+
+            <!--Posting comments-->
+            <div class="comment-form">
+              <p class="comments-closed emphasis">
+                This comment thread is closed. If you have important information
+                to share, please
+                <a href="/contact.html">contact us</a>
+              </p>
+
+              {% include components/comment.html %}
+            </div>
+          </div>
+        </div>
+
+        <div class="more-articles">
+          <!-- from the same author -->
+          <h3>
+            Also from
+            <a href="/authors/{{ author | slug }}.html">
+              {{ author | capitalize }}
+            </a>
+          </h3>
+          <div>
+            {% for item in collections.authors[author] limit:5 %} {% if item.url
+            == page.url %} {% continue %} {% else %}
+            <a href="{{ item.url | url }}" class="more-card">
+              <img src="{{ item.data.thumbnail }}" alt="" />
+              <h4>{{ item.data.title | short }}</h4>
+            </a>
+            {% endif %} {% endfor %}
+          </div>
+
+          <h3>
+            Also in
+            <a href="/categories/{{ category | slug }}.html">
+              {{ category | capitalize }}
+            </a>
+          </h3>
+          <div>
+            {% for post in collections.cats[category] limit:5 %} {% if post.url
+            == page.url %} {% continue %} {% else %}
+            <a href="{{ post.url | url }}" class="more-card">
+              <img src="{{ post.data.thumbnail }}" alt="" />
+              <h4>{{ post.data.title | short }}</h4>
+            </a>
+            {% endif %} {% endfor %}
+          </div>
+        </div>
+
+        {% include components/newsletter.html %}
+      </section>
+    </main>
+    <!-- ** Main page ** -->
+
+    <!-- Page footer -->
+    {% include components/footer.html %}
+    <!-- ** Page footer ** -->
+
+    <script src="/scripts/jquery-1.9.1.min.js"></script>
+    <script src="/scripts/intlTelInput-jquery.js"></script>
+    <script src="/scripts/intlTelInput.js"></script>
+    <script src="/scripts/intlTelInit.js"></script>
+  </body>
+</html>
