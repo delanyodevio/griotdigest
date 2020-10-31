@@ -1,0 +1,74 @@
+---
+layout: layouts/author.html
+change: "daily"
+pagination:
+  data: collections.authors
+  size: 1
+  alias: author
+permalink: "authors/{{ author | slug }}.html"
+scripts:
+  - "https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"
+  - "https://www.gstatic.com/firebasejs/7.13.2/firebase-firestore.js"
+  - "/scripts/firebase.js"
+  - "/scripts/author.js"
+  - "/scripts/quick_share.js"
+---
+
+<div class="sticky-bar">
+  <a href="/">Home</a> <span>/</span>
+  <i class="fas fa-user"></i>
+  {{ author }}
+</div>
+
+<section>
+  <h1 class="top-heading">Latest stories by {{ author }}</h1>
+  <div class="author-grid">
+    <div class="byline">
+      <div class="hide-notice">
+        <span id="user" data-author="{{ author | slug }}"></span>
+      </div>
+      <div class="dashboard">
+        <img src="/images/uploads/{{ author | slug }}.webp" alt="" />
+        <div class="bio-details">
+          <small>{{ author }}</small>
+          {%- assign total = collections.authors[author] | size -%}
+          <small class="total-posts">
+            Total Posts:
+            <span>{{ total }}</span>
+          </small>
+          <div class="bio-social">
+            <a class="tw-anchor"><i class="fab fa-twitter"></i></a>
+            <a class="fb-anchor"><i class="fab fa-facebook-f"></i></a>
+            <a class="ins-anchor"><i class="fab fa-instagram"></i></a>
+            <a class="ph-anchor"><i class="fas fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="edited-bio emphasis">loading author bio...</p>
+    </div>
+
+    <div class="article-container">
+      {% for blog in collections.authors[author] limit:30 %}
+      <section class="article-card">
+        <a class="article-link" href="{{ blog.url | url }}">
+          <img src="{{ blog.data.thumbnail }}" alt="{{ blog.data.caption }}" />
+          <h2>{{ blog.data.title }}</h2>
+        </a>
+
+        <p class="footnote">
+          <a href="/categories/{{ blog.data.category | slug }}.html">
+            <i class="fas fa-tags"></i>
+            {{ blog.data.category }}.
+          </a>
+          <time datetime="{{ blog.date | dateIso }}">
+            <i class="fas fa-calendar-alt"></i>
+            {{ blog.data.publishAt | dateReadable }}.
+          </time>
+        </p>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+  {% include components/newsletter.html %}
+</section>

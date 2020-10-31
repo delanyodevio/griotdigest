@@ -1,0 +1,46 @@
+---
+layout: layouts/category.html
+change: "daily"
+pagination:
+  data: collections.categories
+  size: 1
+  alias: category
+permalink: "categories/{{ category | downcase | strip | slug }}.html"
+---
+
+<div class="sticky-bar">
+  <a href="/">Home</a> <span>/</span>
+  <i class="fas fa-tags"></i>
+  {{ category }}
+</div>
+
+<section class="top-heading">
+  <h1>Latest stories on {{ category }}</h1>
+</section>
+
+<section>
+  <div class="article-container">
+    {% for blog in collections.categories[category] limit:30 %}
+    <section class="article-card">
+      <a class="article-link" href="{{ blog.url | url }}">
+        <img src="{{ blog.data.thumbnail  }}" alt="{{ blog.data.caption }}" />
+        <h2>{{ blog.data.title }}</h2>
+      </a>
+
+      <p class="footnote">
+        <a href="/authors/{{ blog.data.author | slug }}.html">
+          <i class="fas fa-user"></i>
+          {{ blog.data.author }}.
+        </a>
+
+        <time datetime="{{ blog.date | dateIso }}">
+          <i class="fas fa-calendar-alt"></i>
+          {{ blog.data.publishAt | dateReadable }}.
+        </time>
+      </p>
+    </section>
+    {% endfor %}
+    <!-- newsletter -->
+    {% include components/newsletter.html %}
+  </div>
+</section>

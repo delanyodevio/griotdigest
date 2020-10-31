@@ -11,7 +11,6 @@
 <meta property="og:url" content="{{ page.url }}" />
 <meta property="og:title" content="{{ title }}" />
 <meta property="og:image" content="https://griotdigest.com/{{ thumbnail }}" />
-config.addFilter("excerpt", (article) => {
 <meta property="og:description" content="{{ summary | excerpt }}..." />
 <meta property="og:site_name" content="Griot Digest" />
 <meta property="og:locale" content="en_US" />
@@ -21,5 +20,5 @@ config.addFilter("excerpt", (article) => {
 <meta name="twitter:site" content="@griotdigest" />
 <meta name="twitter:url" content="{{ page.url }}" />
 <meta name="twitter:title" content="{{ title }}" />
-<meta name="twitter:description" content="{{ summary | excerpt  }}..." />
+<meta name="twitter:description" content="{{ summary | excerpt }}..." />
 <meta name="twitter:image" content="https://griotdigest.com/{{ thumbnail }}" />

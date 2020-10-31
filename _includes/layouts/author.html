@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles/intlTelInput.css" />
+    <link rel="stylesheet" href="../styles/webfonts.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <!-- ** Styles ** -->
+
+    <!-- scripts -->
+    {% for script in scripts %}
+    <script defer src="{{ script }}"></script>
+    {% endfor %}
+
+    <script defer src="/scripts/dropdown.js"></script>
+    <!-- scripts -->
+
+    <meta name="keywords" content="Griot Studio, smart stories, {{ author }}" />
+    <meta property="og:title" content="{{ author }}" />
+    <meta property="twitter:title" content="{{ author }}" />
+    <meta property="og:description" content="smart stories by {{ author }}" />
+    <meta
+      property="twitter:description"
+      content="smart stories by {{ author }}"
+    />
+
+    <meta
+      property="og:image"
+      property="twitter:image"
+      content="https://www.griotstudio.com/images/uploads/{{ author | slug }}.webp"
+      alt="{{ author }}"
+    />
+
+    <meta name="description" content="{{ author }} stories" />
+    <meta name="author" content="{{ author }}" />
+    <title>{{ author }} stories</title>
+  </head>
+  <body class="{{ activePage }}">
+    <!-- Page header-->
+    {% include components/header.html %}
+    <!-- ** Page header ** -->
+
+    <!-- Main page -->
+    <main>{{ content | safe }}</main>
+    <!-- ** Main page ** -->
+
+    <!-- Page footer -->
+    {% include components/footer.html %}
+    <!-- ** Page footer ** -->
+  </body>
+</html>

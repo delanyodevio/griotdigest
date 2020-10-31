@@ -1,0 +1,100 @@
+---
+layout: layouts/pages.html
+headline: "Contact the Griots"
+change: "yearly"
+description: "Smart stories for your ideas"
+permalink: "{{ page.filePathStem }}.html"
+scripts:
+  - "scripts/contactMail.js"
+---
+
+<div class="sticky-bar">
+  <a href="/">Home</a> <span>/</span>
+  Contact the Griots.
+</div>
+
+<section>
+  <h1 class="top-heading">Let's know what you have for us</h1>
+
+  <article>
+    <p class="emphasis">
+      Whatever you would like to tell us, we are always prepared to listen. We
+      always appreciate honest feedback, constructive criticism and useful link
+      suggestions.
+    </p>
+
+    <form id="contactForm" class="contact-form" method="POST">
+      <h3>Our Contact Form</h3>
+
+      <p>Please first tell us about yourself.</p>
+
+      <label for="fullname">What is your name? (required).</label>
+      <input type="text" name="fullname" id="fullname" required />
+
+      <label for="email"> What email can we reach you at? (required). </label>
+      <input type="email" name="email" id="email" required />
+
+      <label for="phone">
+        What number can we call you on?(international format)
+      </label>
+      <input type="tel" name="phone" id="phone" required />
+
+      <p>What is About? (pick any)</p>
+      <ol>
+        <li>
+          <input type="checkbox" name="sponsor" id="sponsor" />
+          <label for="sponsor">
+            <span class="checkmark" aria-disabled="true"></span>
+            <span>Advertising</span>
+          </label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="suggestion" id="suggestion" />
+          <label for="suggestion">
+            <span class="checkmark" aria-disabled="true"></span>
+            <span>Link suggestion</span>
+          </label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="opinion" id="opinion" />
+          <label for="opinion">
+            <span class="checkmark" aria-disabled="true"></span>
+            <span>Voicing an opinion</span>
+          </label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="legal" id="legal" />
+          <label for="legal">
+            <span class="checkmark" aria-disabled="true"></span>
+            <span>Copyright/legal</span>
+          </label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="bug" id="bug" />
+          <label for="bug">
+            <span class="checkmark" aria-disabled="true"></span>
+            <span>Bug report</span>
+          </label>
+        </li>
+      </ol>
+
+      <label for="message">
+        How can we help you? Your message, maximum of 800 characters
+      </label>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="8"
+        maxlength="800"
+      ></textarea>
+
+      <button type="submit">Send message</button>
+    </form>
+  </article>
+</section>
+<section>{% include components/newsletter.html %}</section>

@@ -1,0 +1,118 @@
+---
+layout: layouts/author.html
+scripts:
+  - "https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"
+  - "https://www.gstatic.com/firebasejs/7.13.2/firebase-firestore.js"
+  - "/scripts/firebase.js"
+  - "/scripts/editBio.js"
+  - "/scripts/jquery-1.9.1.min.js"
+  - "/scripts/intlTelInput-jquery.js"
+  - "/scripts/intlTelInput.js"
+  - "/scripts/intlTelInit.js"
+pagination:
+  data: collections.authors
+  size: 1
+  alias: author
+permalink: "dashboard/{{ author | slug }}.html"
+---
+
+<section>
+  <h1 class="top-heading">Welcome {{ author }}</h1>
+  <div class="author-grid">
+    <div>
+      <div class="byline">
+        <div class="dashboard">
+          <img src="/images/uploads/{{ author | slug }}.webp" alt="" />
+          <div class="bio-details">
+            <small>{{ author }}</small>
+            {%- assign total = collections.authors[author] | size -%}
+            <small class="total-posts">
+              Total Posts:
+              <span>{{ total }}</span>
+            </small>
+            <div class="bio-social">
+              <a class="tw-anchor"><i class="fab fa-twitter"></i></a>
+              <a class="fb-anchor"><i class="fab fa-facebook-f"></i></a>
+              <a class="ins-anchor"><i class="fab fa-instagram"></i></a>
+              <a class="ph-anchor"><i class="fas fa-phone"></i></a>
+            </div>
+          </div>
+        </div>
+        <p class="edited-bio emphasis">
+          Take the edit button to initialize or reset your information. Or wait
+          for it to be loaded, if you have already done so.
+        </p>
+      </div>
+
+      <div class="edit-actions">
+        <div class="edit-buttons">
+          <button class="cancel-edit">Cancel</button>
+          <button class="edit-bio">Edit profile</button>
+          <a class="new-post" href="/admin"><button>add new post</button></a>
+        </div>
+
+        <div class="hide-notice">
+          <span id="user" data-author="{{ author | slug }}"></span>
+        </div>
+
+        <form id="bioForm" method="POST" enctype="multipart/form-data">
+          <p class="bio-intro warning">
+            All fields are required if this the first time.
+          </p>
+
+          <div>
+            <label for="facebook">Copy Your Facebook profile link here</label>
+            <input type="text" name="facebook" id="facebook" required />
+
+            <label for="twitter">Your Twitter username</label>
+            <input type="text" name="twitter" id="twitter" required />
+
+            <label for="instagram">Your Instagram username</label>
+            <input type="text" name="instagram" id="instagram" required />
+
+            <label for="phone">Your Phone number</label>
+            <input type="tel" name="phone" id="phone" required />
+            <span class="hide-notice valid-msg">Valid</span>
+            <span class="hide-notice error-msg"></span>
+          </div>
+
+          <div class="bio-textarea">
+            <label for="biography">A short bio about you</label>
+            <textarea
+              name="biography"
+              id="biography"
+              cols="28"
+              rows="5"
+              maxlength="500"
+              required
+              placeholder="{{ author }} is a ...."
+            ></textarea>
+            <button type="submit" class="submitButton">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="article-container">
+      {% for blog in collections.authors[author] limit:30 %}
+      <section class="article-card">
+        <a class="article-link" href="{{ blog.url | url }}">
+          <img src="{{ blog.data.thumbnail }}" alt="{{ blog.data.caption }}" />
+          <h2>{{ blog.data.title }}</h2>
+        </a>
+
+        <p class="footnote">
+          <a href="/categories/{{ blog.data.category | slug }}.html">
+            <i class="fas fa-tags"></i>
+            {{ blog.data.category }}.
+          </a>
+          <time datetime="{{ blog.date | dateIso }}">
+            <i class="fas fa-calendar-alt"></i>
+            {{ blog.data.publishAt | dateReadable }}.
+          </time>
+        </p>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>

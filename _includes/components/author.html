@@ -1,0 +1,25 @@
+<div class="author-card">
+  <h3>About the Author</h3>
+  <div class="byline">
+    <div class="hide-notice">
+      <span id="user" data-author="{{ author | slug }}"></span>
+    </div>
+    <div class="dashboard">
+      <img src="/images/uploads/{{ author | slug }}.webp" alt="" />
+      <div class="bio-details">
+        <small>
+          <a href="/authors/{{ author | slug }}.html"> {{ author }} </a>
+        </small>
+
+        <div class="bio-social">
+          <a class="tw-anchor"><i class="fab fa-twitter"></i></a>
+          <a class="fb-anchor"><i class="fab fa-facebook-f"></i></a>
+          <a class="ins-anchor"><i class="fab fa-instagram"></i></a>
+          <a class="ph-anchor"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <p class="edited-bio emphasis">loading author bio...</p>
+  </div>
+</div>

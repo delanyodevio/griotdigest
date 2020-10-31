@@ -1,0 +1,64 @@
+<form id="commentForm">
+  <div>
+    <h4>Leave a comment</h4>
+
+    <label for="name">Your full name (required)</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="phone">
+      Your Whatsapp number (required). Will not be published.
+    </label>
+    <input type="phone" name="phone" id="phone" required />
+    <span class="hide-notice valid-msg">Valid</span>
+    <span class="hide-notice error-msg"></span>
+  </div>
+
+  <div class="textarea">
+    <label for="message">Your Message</label>
+    <textarea
+      name="message"
+      id="message"
+      cols="30"
+      rows="5"
+      maxlength="300"
+      required
+    ></textarea>
+
+    <p class="comment-alert emphasis">Your comment has been posted</p>
+
+    <button type="submit">post your comment</button>
+  </div>
+</form>
+
+<form id="replyForm" class="reply-form">
+  <div class="parentId">
+    <h4>Leave a reply</h4>
+
+    <label for="reName">Your full name (required)</label>
+    <input type="text" id="reName" name="reName" required />
+
+    <label for="rePhone">
+      Your Whatsapp number (required). Will not be published.
+    </label>
+    <input type="phone" name="rePhone" id="rePhone" required />
+    <span class="hide-notice valid-msg reValid-msg">Valid</span>
+    <span class="hide-notice error-msg reError-msg"></span>
+  </div>
+  <div class="textarea">
+    <label for="reMessage">Your Message</label>
+    <textarea
+      name="reMessage"
+      id="reMessage"
+      cols="30"
+      rows="5"
+      maxlength="300"
+      required
+    ></textarea>
+
+    <p class="comment-alert reply-alert emphasis">
+      Your comment has been posted
+    </p>
+
+    <button type="submit">post your reply</button>
+  </div>
+</form>
