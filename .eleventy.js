@@ -15,6 +15,8 @@ module.exports = function (config) {
   config.addPassthroughCopy(".well-known");
   config.addPassthroughCopy("favicon.ico");
   config.addPassthroughCopy("robots.txt");
+  config.addPassthroughCopy("functions");
+  config.addPassthroughCopy("netlify.toml");
 
   // Date formatting (machine readable)
   config.addFilter("dateIso", (date) => {

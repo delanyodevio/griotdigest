@@ -19,6 +19,7 @@
     {% endfor %}
 
     <script defer src="/scripts/dropdown.js"></script>
+    <script defer src="/scripts/email.js"></script>
     <!-- scripts -->
 
     <title>{{ headline }}</title>
@@ -29,9 +30,7 @@
     <!-- ** Page header ** -->
 
     <!-- Main page -->
-    <main>
-      {{ content | safe }}
-    </main>
+    <main>{{ content | safe }}</main>
     <!-- ** Main page ** -->
 
     <!-- Page footer -->

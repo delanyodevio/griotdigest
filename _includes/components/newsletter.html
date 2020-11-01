@@ -1,15 +1,35 @@
-<section class="newsletter-section" id="newsletter">
+<section class="newsletter-section">
   <div class="newsletter">
-    <h3>Get Smarter with Your Ideas</h3>
+    <h3>Our Smart Email Newsletter</h3>
     <p>
-      Get connected to smart stories that empower your ideas - delivered to your
-      inbox once a month.
+      Every last saturday of every month we send an editorial email newsletter
+      with useful stories. Subscribe for what we're reading and writing in your
+      inbox.
     </p>
-    <form>
+    <form
+      id="newsletter"
+      name="newsletter"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      <div hidden aria-hidden="true">
+        <i class="fas fa-laugh-wink"></i>
+        <label for="bot-field">
+          Don't fill this out if you are a human:
+          <input name="bot-field" />
+        </label>
+      </div>
       <label for="email">Your email address</label>
-      <input type="email" name="email" id="email" />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Your email address here."
+        required
+      />
 
-      <button type="submit">Join the Tribe</button>
+      <button type="submit">Subscribe</button>
     </form>
   </div>
 </section>

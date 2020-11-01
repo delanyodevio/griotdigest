@@ -11,7 +11,7 @@ pagination:
   reverse: true
 ---
 
-<div class="intro">
+<div class="intro home-intro">
   <div class="categories">
     <ul>
       {% for category in collections.catList limit:15 %}
@@ -54,4 +54,4 @@ pagination:
     {% endfor %}
   </div>
 </section>
-<section>{% include components/newsletter.html %}</section>
+{% include components/newsletter.html %}
