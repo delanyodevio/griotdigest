@@ -1,0 +1,32 @@
+---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Griot Digest",
+    "subtitle": "Smart stories for your ideas.",
+    "url": "https://griotdigest.com/",
+    "feedUrl": "https://griotdigest.com/feed.xml",
+    "author": {
+      "name": "delanyo agbenyo",
+      "email": "delanyo@griotdigest.com"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  {% assign posts = collections.posts limit:20 %}
+    {% for post in posts reversed %}
+        <item>
+            <title>{{ post.data.title }}</title>
+            <link>{{ post.url }}</link>
+            <content:encoded>
+                <![CDATA[{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}]]>
+            </content:encoded>
+            <guid>{{ post.data.title }}</guid>
+            <pubdate>{{ post.data.publishAt }}</pubdate>
+            <author>{{ post.data.author }}</author>
+        </item>
+    {% endfor %}
+</feed>
