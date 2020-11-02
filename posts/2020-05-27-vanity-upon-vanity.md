@@ -6,10 +6,11 @@ thumbnail: /images/uploads/screenshot_20200527-030445_1590549518095.webp
 caption: Funeral rites
 publishAt: 2020-05-27T04:24:06.924Z
 keywords: Culture, funerals, dead, families.
-summary: Our culture and traditions make us unique as Africans for that matter
-  Ghanaians. The way we dress, look, talk, our food, our morals, rituals, etc
-  differentiates us from others.
 ---
+
+Our culture and traditions make us unique as Africans for that matter
+Ghanaians. The way we dress, look, talk, our food, our morals, rituals, etc
+differentiates us from others.
 
 Even as Ghanaians, we are differentiated by our tribes therefore we may do the same thing but in different ways.
 

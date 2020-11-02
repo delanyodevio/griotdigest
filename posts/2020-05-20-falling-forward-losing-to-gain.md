@@ -6,8 +6,9 @@ thumbnail: /images/uploads/failing-gain-fail-harder.webp
 caption: failing to gain - fail harder
 publishAt: 2020-05-20T11:50:20.061Z
 keywords: success, failing, losing, gain
-summary: Successful people turn a loss into a gain.
 ---
+
+Successful people turn a loss into a gain.
 
 A loss at a point in life is a blessing in disguise if you command the mental fortitude to turn it into a gain. As we sojourn through the uncertainties of our existence, we vow to sail through toil and joy. Not to betray your vow, ask yourself! If I am going to lose and I am because everyone does, why can't I turn it into a gain?
 

@@ -6,10 +6,10 @@ thumbnail: /images/uploads/img-20181222-wa0022.webp
 caption: Self love
 publishAt: 2020-07-23T06:38:21.851Z
 keywords: Self-help, self love,
-summary:
-  Sorry for not being sorry. It is time to focus on oneself and not the voices
-  of negativity. Always learn to choose you and fight for you.
 ---
+
+Sorry for not being sorry. It is time to focus on oneself and not the voices
+of negativity. Always learn to choose you and fight for you.
 
 Sorry that I may appear selfish
 Sorry that I want more of me

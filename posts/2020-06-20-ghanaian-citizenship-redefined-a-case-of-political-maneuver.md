@@ -6,9 +6,10 @@ thumbnail: /images/uploads/picsart_06-20-02.34.06.webp
 caption: Nationality Identification Documents
 publishAt: 2020-06-20T14:36:12.912Z
 keywords: Citizenship, Ghanaian, Ghana Card,
-summary: "What makes one a Ghanaian? Is it Government issued paper documents and
-  cards or real proof of citizenship??"
 ---
+
+What makes one a Ghanaian? Is it Government issued paper documents and
+cards or real proof of citizenship?
 
 The National Identification Authority (NIA) and the Government have craftily succeeded in swindling us big time. They told us not to worry about the hurried way the registration for the Ghana Card was being done because after the mass registration, district offices will be set up for those of us who couldn't get registered so we can go and register. Also, Kenneth Agyeman Attafuah (NIA Boss) was very clear when he said the Ghana Card will NOT be used for registration for the new Voter’s Card so we should relax and get registered when the district offices are in operation. This is a man that is close to the Presidency hence we trusted him. This has given most of us cold feet not to struggle for the mass registration (although most of us really tried) because there's another way of getting the card.
 

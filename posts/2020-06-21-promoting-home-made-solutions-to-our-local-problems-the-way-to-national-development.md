@@ -7,9 +7,10 @@ thumbnail: /images/uploads/picsart_06-21-10.47.46.webp
 caption: Locally made Hand Washing System
 publishAt: 2020-06-21T11:34:18.840Z
 keywords: Hand-Washing System, Covid19, Covid 19 Innovation, Hand Washing System
-summary: Locally Mechanized Inventions To Promote Hand-Washing As A Means Of
-  Preventing Infections.
 ---
+
+Locally Mechanized Inventions To Promote Hand-Washing As A Means Of
+Preventing Infections.
 
 This mechanized locally-made Hand-Washing system is designed and constructed by a young man by name Sims Enyce, a second-year Science student at Legon Presbyterian Boys Senior High School (PRESEC). He's of the view that, as compared to the various similar systems being produced locally using Veronica buckets and wood or metal stands/frames, his method is safer as the user touches nothing with the hands.
 

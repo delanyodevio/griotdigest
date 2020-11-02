@@ -6,9 +6,10 @@ thumbnail: /images/uploads/mpumelelo-macu-l_ynobbdyjk-unsplash.webp
 caption: African style
 publishAt: 2020-06-06T10:41:05.834Z
 keywords: "Covid 19, Africa, solution, continent"
-summary: "It is good to copy from others but make sure to decode whatever that
-  is copied to suit your environment."
 ---
+
+It is good to copy from others but make sure to decode whatever that
+is copied to suit your environment.
 
 The fastest and cheapest way to learn is to observe and copy. This has worked powerfully many times. This method has been deployed by great nations on the Asian continent suck as China, Japan, Korea, etc.
 

@@ -15,8 +15,10 @@ module.exports = function (config) {
   config.addPassthroughCopy(".well-known");
   config.addPassthroughCopy("favicon.ico");
   config.addPassthroughCopy("robots.txt");
-  config.addPassthroughCopy("functions");
+  config.addPassthroughCopy("safari-pinned-tab.svg");
+  config.addPassthroughCopy("browserconfig.xml");
   config.addPassthroughCopy("netlify.toml");
+  config.addPassthroughCopy("functions");
 
   // Date formatting (machine readable)
   config.addFilter("dateIso", (date) => {

@@ -6,13 +6,14 @@ thumbnail: /images/uploads/picsart_05-29-11.49.52.webp
 caption: Mortgage Home Ownership
 publishAt: 2020-05-29T12:15:15.291Z
 keywords: Mortgage, Home Financing, Owning a home, Home Loans, Mortgage Loans.
-summary: Acquiring a home is as desirable as it is a necessity to navigate life
-  comfortably and relatively stress-free. Acquiring a home immediately however
-  is often beyond most people’s financial ability. This means acquiring a home
-  for many remains just but a dream. However, this doesn’t have to be, so long
-  as mortgages exist! Mortgages are simply loans you take to finance landed
-  properties.
 ---
+
+Acquiring a home is as desirable as it is a necessity to navigate life
+comfortably and relatively stress-free. Acquiring a home immediately however
+is often beyond most people’s financial ability. This means acquiring a home
+for many remains just but a dream. However, this doesn’t have to be, so long
+as mortgages exist! Mortgages are simply loans you take to finance landed
+properties.
 
 Acquiring a home is as desirable as it is a necessity to navigate life comfortably and relatively stress-free. Acquiring a home immediately however is often beyond most people’s financial ability. This means acquiring a home for many remains just but a dream. However, this doesn’t have to be, so long as mortgages exist! Mortgages are simply loans you take to finance landed properties.
 

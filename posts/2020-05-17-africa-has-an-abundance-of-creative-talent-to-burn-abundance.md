@@ -6,10 +6,11 @@ thumbnail: /images/uploads/africa-innovation-and-creativity.webp
 caption: "Africa has an abundance of creative talent to burn abundance"
 publishAt: 2020-05-17T14:48:55.435Z
 keywords: africa, african continent, innovation, creativity, talent.
-summary: I have always felt there was something wrong🤔 with either the African
-  continent or her people. I couldn't tell where the problem was coming from
-  until I read Matthew 25:14:30 and I said eureka!🕺🏼
 ---
+
+I have always felt there was something wrong🤔 with either the African
+continent or her people. I couldn't tell where the problem was coming from
+until I read Matthew 25:14:30 and I said eureka!🕺🏼
 
 This scripture talks about the parable of the talents. Talents that were given to servants by their master when he was traveling. On his return, some servants were able to multiply their talents and some were not.
 

@@ -6,8 +6,9 @@ thumbnail: /images/uploads/canvas-1-.webp
 caption: the creator
 publishAt: 2020-05-09T15:26:11.180Z
 keywords: canvas, imagination creator, mind, artist, thoughts
-summary: The mind is the bedrock of our imagination
 ---
+
+The mind is the bedrock of our imagination
 
 As i lay on my bed with **thoughts** racing through my mind like _formula 1 sports_. there was so much speed like a busy road without _traffic lights_. i thought i was going to crush in my **confusion**. i even thought i was going crazy, because i was restless.
 

@@ -6,8 +6,9 @@ thumbnail: /images/uploads/her-vernom-and-resilence-tiger.webp
 caption: resilience of a tiger
 publishAt: 2020-05-16T10:49:52.560Z
 keywords: venom, resilience, resistance,endurance, menstruation.
-summary: never underestimate the strength of a woman.
 ---
+
+Never underestimate the strength of a woman.
 
 according to the bible, the last of all creation was the woman. this is significant because in tradition we believe all must be present before the important guest arrives during an occasion. and the game changer was set to arrive.
 

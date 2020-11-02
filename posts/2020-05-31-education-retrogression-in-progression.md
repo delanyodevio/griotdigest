@@ -6,10 +6,11 @@ thumbnail: /images/uploads/picsart_05-31-02.31.12.webp
 caption: Public Basic Education Pupils
 publishAt: 2020-05-31T14:35:10.194Z
 keywords: Education, Psychomotor, Cognitive, Progression, Retrogression.
-summary: Education forms the basis of every positive growth in individual and
-  society. If it must be pursued, it must be done well to produce "assets"
-  rather than "liabilities".
 ---
+
+Education forms the basis of every positive growth in individual and
+society. If it must be pursued, it must be done well to produce "assets"
+rather than "liabilities".
 
 Education in simple terms that seeks to unearth and polish our hidden potentials has been misconstrued to the detriment of its positive impacts on human life. Education in Ghana was mainly informal, and based on apprenticeship before the arrival of European settlers, who introduced a formal education system addressed to the elites. In missionary education, character training was not left out. Many people in Ghana use the word "education" to refer to formal instruction in an European-type school.
 

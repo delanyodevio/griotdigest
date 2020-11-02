@@ -56,8 +56,6 @@
             <figcaption>{{ caption }}</figcaption>
           </figure>
 
-          <p class="emphasis summary">{{ summary }}</p>
-
           {{ content | safe }}
 
           <button class="sharer">Share this story</button>
@@ -145,5 +143,6 @@
     <script src="/scripts/intlTelInput-jquery.js"></script>
     <script src="/scripts/intlTelInput.js"></script>
     <script src="/scripts/intlTelInit.js"></script>
+    {% include components/cookie.html %}
   </body>
 </html>

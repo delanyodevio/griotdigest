@@ -6,10 +6,11 @@ thumbnail: /images/uploads/img-20200618-wa0019.webp
 caption: Premises of Asaase Radio
 publishAt: 2020-06-20T12:58:02.646Z
 keywords: "Asaase, Radio Signal,"
-summary: Gone are the days funerals and weddings were avenues for showcasing
-  wealth. Guess what, the status quo has been discarded. Who would ever think a
-  Radio Station can be ultra modern??
 ---
+
+Gone are the days funerals and weddings were avenues for showcasing
+wealth. Guess what, the status quo has been discarded. Who would ever think a
+Radio Station can be ultra modern?
 
 Asaase Radio which has been on test transmission for some days now, is allegedly owned by NPP's Gabby Otchere Darko, the right-hand man of the President. It is located on 5th Circular Rd, Cantonment—Accra.
 The Radio Station is Accra's latest and ultra modern commercial radio in the country that got most people talking. The infrastructures, vehicles, setups, internal decorations and IT gadgets on display are breathe-taking! Personally I’ve never seen a Radio station extravagantly and exquisitely setup like this before. It has a dedicated walled premises, fleets of branded vehicles(even SUV's), a lot of rooms for conferences. It also have fully furnished cubicles for desk workers and a room equipped with 3-in-1 couch, divided into sort of cubicles for relaxation ( day/night sleeping place for workers and guests). It also appears to have a music production room with beat-making and recording gadgets. There’s also a set up that looks like a media training classroom. In fact, the internal decorations, art works and wall paintings are superb. Money is good indeed! A budget-less establishment(Money no be problem….Lol).

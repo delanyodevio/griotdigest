@@ -5,14 +5,15 @@ author: Godson Seneadza
 thumbnail: /images/uploads/picsart_05-25-01.50.36.webp
 caption: Sleep Paralysis—Shadowy Demons and Evil Abductors (The Myths)
 publishAt: 2020-05-25T13:30:07.123Z
-summary: "Ever woken up in the middle of your sleep only to realize you can’t
-  move, speak or scream? I bet you’ve been taken by fear, fear of dying or being
-  dead?? Yes, that’s more like it! However, the most interesting and scary part
-  in this situation is that, you will try struggling any possible way just to
-  move or wake up and sometimes, you feel being choked (like something is
-  sitting on you) but none of your efforts works. "
 keywords: Sleep Paralysis, Hallucinations, woke up from sleep.
 ---
+
+Ever woken up in the middle of your sleep only to realize you can’t
+move, speak or scream? I bet you’ve been taken by fear, fear of dying or being
+dead?? Yes, that’s more like it! However, the most interesting and scary part
+in this situation is that, you will try struggling any possible way just to
+move or wake up and sometimes, you feel being choked (like something is
+sitting on you) but none of your efforts works.
 
 As humans, one of the situations in which we often finds ourselves as being weak and powerless is during sleep. If you’re part of the almighty nocturnal group that subscribe to the saying “Sleep is for the weak” or “Sleep is a trap”, you might want to reconsider this ascertion and succumb to quality sleep and good sleeping habits.
 

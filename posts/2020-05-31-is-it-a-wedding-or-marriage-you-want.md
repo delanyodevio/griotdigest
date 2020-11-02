@@ -6,13 +6,14 @@ thumbnail: /images/uploads/img-20200524-wa0011-1-.webp
 caption: marriage ceremony
 publishAt: 2020-05-31T12:18:51.499Z
 keywords: Relationship, marriage, wedding, money
-summary: Marriage is a lifetime journey to an unknown destination. A journey
-  that no one knows how it will end. I believe the marriage certificate is
-  issued before the marriage life begins unlike in normal academic field. This i
-  presume is because you will be your own teacher, guide, etc, you're your own
-  marking scheme. So there will be no one with you to access you. Therefore all
-  decisions are in your hands and it's assumed you're already a winner🏆 .
 ---
+
+Marriage is a lifetime journey to an unknown destination. A journey
+that no one knows how it will end. I believe the marriage certificate is
+issued before the marriage life begins unlike in normal academic field. This i
+presume is because you will be your own teacher, guide, etc, you're your own
+marking scheme. So there will be no one with you to access you. Therefore all
+decisions are in your hands and it's assumed you're already a winner🏆 .
 
 Marriage and wedding are two different things, one is real and the other is a mirage. Over the years Ghanaian marriage ceremonies have been infused with expensive weddings. Don't get me wrong, am not against expensive weddings. Am against forcing expensive weddings just to please people. Weddings these days are the new trends, without it you may be considered selfish, poor or out of touch with the modern world.
 

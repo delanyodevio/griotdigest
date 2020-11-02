@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /search.html
+Disallow: /search.json
+Disallow: /.well-known/
+
+Sitemap: https://www.griotdigest.com/sitemap.xml

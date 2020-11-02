@@ -6,14 +6,15 @@ thumbnail: /images/uploads/picsart_06-03-06.53.06.webp
 caption: Capitalists Riding On the backs of Workers
 publishAt: 2020-06-03T19:31:26.958Z
 keywords: Capitalism, Working class, Financial Inequality
-summary: "Capitalism is an economic system where a small percentage of the
-  population owns majority of the wealth, power and resources. This system
-  survives on conflict, inequality and false hope from the working class, who
-  are set up to believe that they can achieve a capitalist lifestyle.
-  Unfortunately, the working class is only a tool and a source of funding for
-  the rich Capitalists. This, has to change as Capitalism does more harm than
-  good to a nation. "
 ---
+
+Capitalism is an economic system where a small percentage of the
+population owns majority of the wealth, power and resources. This system
+survives on conflict, inequality and false hope from the working class, who
+are set up to believe that they can achieve a capitalist lifestyle.
+Unfortunately, the working class is only a tool and a source of funding for
+the rich Capitalists. This, has to change as Capitalism does more harm than
+good to a nation.
 
 In Ghana, most salaried and casual workers have been struggling financially such that, one tends to wonder what exactly is responsible for such a phenomenon. After working hard throughout their life, one retires on pensions and savings. This has been the norm for most people because we’ve been taught that, savings and investment is the sure way out of poverty. Unfortunately, most workers tend to lose sight of the investment aspect and only focus on the savings. Thus, to be rich in future, most people subscribe to the savings culture.
 

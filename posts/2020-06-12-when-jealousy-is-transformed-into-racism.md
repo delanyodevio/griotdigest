@@ -6,14 +6,15 @@ thumbnail: /images/uploads/clarke-sanders-jpcogj0uili-unsplash.webp
 caption: A picture of a group of black ladies
 publishAt: 2020-06-12T23:15:10.171Z
 keywords: Africa, jealous, slaves, build
-summary: Africa is one beautiful place that contains all that the world is
-  looking for. And it's not surprising that we have other races that are jealous
-  of us. And this jealousy has been transformed into racism centuries ago. But
-  it is now time for the blacks all over to unite with their home and build a
-  resilient continent. It is time we leave behind the bossiness and
-  individualism. It is time not to feel inferior. It is time to rise and defend
-  the black race.
 ---
+
+Africa is one beautiful place that contains all that the world is
+looking for. And it's not surprising that we have other races that are jealous
+of us. And this jealousy has been transformed into racism centuries ago. But
+it is now time for the blacks all over to unite with their home and build a
+resilient continent. It is time we leave behind the bossiness and
+individualism. It is time not to feel inferior. It is time to rise and defend
+the black race.
 
 When someone is jealous of you, there's a 100% chance that you're doing better than them or you have something precious that they don't have. And that's a good reason why they may be jealous of you. Jealousy is very infectious and it's rate of transmission is high and fast. If i am jealous of you, there is a way that i can transmit it to those around me so they will also dislike you. I can easily transmit it to my children, which they will also transmit to their children, and the chain goes on.
 

@@ -6,10 +6,11 @@ thumbnail: /images/uploads/img-20191109-wa0001.webp
 caption: "joy unfailing "
 publishAt: 2020-05-25T00:40:53.610Z
 keywords: motivation, lawyer, judge, life, hope
-summary: The stress of this life is enough reason to give up. But hold on, don't
-  throw in the towel yet. Give it one more shot, give it one more hope, give it
-  one more day !
 ---
+
+The stress of this life is enough reason to give up. But hold on, don't
+throw in the towel yet. Give it one more shot, give it one more hope, give it
+one more day !
 
 ![Fake the joy](/images/uploads/img-20180701-wa0010.webp "Hopeful")
 

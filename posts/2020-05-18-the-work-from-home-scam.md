@@ -6,12 +6,13 @@ thumbnail: /images/uploads/1556257168.webp
 caption: Work From Home
 publishAt: 2020-05-18T12:05:06.927Z
 keywords: Scam, Work, Work from Home, Online, Unscrupulous
-summary: Almost everyone that's of a working age might at one point, fall for
-  this Scam of a "Work-from-Home". It's understandable, considering the
-  conditions we find ourselves in as Africans and the "requirements" that comes
-  with these sort of offers. How did this scam came to being?? Who's the "bad
-  guy" in this??
 ---
+
+Almost everyone that's of a working age might at one point, fall for
+this Scam of a "Work-from-Home". It's understandable, considering the
+conditions we find ourselves in as Africans and the "requirements" that comes
+with these sort of offers. How did this scam came to being?? Who's the "bad
+guy" in this??
 
 The internet is fast growing and has become a big platform for quick, easy and consistent money making. Talking about making money over the internet, there are two categories to this. The first is the genuine way where you provide a service over the internet and get paid for it. The second is the fraudulent way where you find dubious means of making money over the internet from unsuspecting victims or by false pretenses.
 

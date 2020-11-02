@@ -6,8 +6,8 @@ var cookieNotice = document.getElementById("cookie-notice"),
 // cookie expiry date
 var expiresIn = 30;
 
-var cookieName = "Africalifest cookie";
-var cookieValue = "Africalifest cookie use";
+var cookieName = "Griot Digest";
+var cookieValue = "Our Privacy Notice";
 
 // Remove cookie notification when clicked
 cookieButton.addEventListener("click", function () {

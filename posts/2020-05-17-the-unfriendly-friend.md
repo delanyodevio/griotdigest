@@ -6,9 +6,10 @@ thumbnail: /images/uploads/friendship-puppies.webp
 caption: puppies
 publishAt: 2020-05-17T16:54:59.982Z
 keywords: poem, love, hate.
-summary: Love they say is blind but the demands of her love for me is too huge
-  to rest on the shoulders of mine. Since when has blinds become so demanding?
 ---
+
+Love they say is blind but the demands of her love for me is too huge
+to rest on the shoulders of mine. Since when has blinds become so demanding?
 
 We are best friends in the eyes of our observers but worst enemies in our own minds. We feel so integrated in the face of societal disintegrations but strangers in our own abode.
 

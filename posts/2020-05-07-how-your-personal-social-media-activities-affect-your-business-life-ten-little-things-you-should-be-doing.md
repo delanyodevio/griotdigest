@@ -6,11 +6,10 @@ thumbnail: /images/uploads/social-media-tools.webp
 caption: the various social media platforms
 publishAt: 2020-05-07T13:17:07.515Z
 keywords: social media, business, lifestyle, social survey.
-summary: Social media and the Internet as a whole has now become a tool that can
-  sharpen up our skills promotes talents and ignite the untapped potentials
-  within us. Your are either continue to fall for lame hypes or get real and do
-  the real work for your efforts to pay off as long as your system established.
 ---
+
+Social media and the Internet as a whole has now become a tool that can sharpen up our skills promotes talents and ignite the untapped potentials within us. Your are either continue to fall for lame hypes or get real and do
+the real work for your efforts to pay off as long as your system established.
 
 In your country if your are coming from a family where your parents are not in the A-list citizens, you should know that there is no time to tolerate trash stories. Well, the most social media platforms are now more than a country, and there are various types of citizens; A-list citizens, B-list citizens and so on. What others don't know is that, those classes of citizens are also economically bound. The opportunities for various types of citizens are far much different.
 

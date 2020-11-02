@@ -6,10 +6,11 @@ thumbnail: /images/uploads/picsart_05-19-10.24.48.webp
 caption: Cooling Appliances
 publishAt: 2020-05-19T23:03:30.848Z
 keywords: "Mist, Humidifier, Fan, Air Cooler, "
-summary: With the heat level in our rooms and the cost of purchasing and running
-  cooling appliances, one would want to explore other avenues. There's no limit
-  to what the hands can do if only the mind can conceive the idea.
 ---
+
+With the heat level in our rooms and the cost of purchasing and running
+cooling appliances, one would want to explore other avenues. There's no limit
+to what the hands can do if only the mind can conceive the idea.
 
 In our part of the world(Africa), we are faced with harsh weather conditions such as high temperatures. Although we do experience cold weather during the harmattan season(usually around New Year festive season — January), it only lasts for a short period. Thus, leaving us mostly with heat to deal with.
 

@@ -7,9 +7,10 @@ thumbnail: /images/uploads/innovative-hand-washing-system.webp
 caption: Hand Washing System
 publishAt: 2020-04-18T23:00:00.000Z
 keywords: innovation, coronavirus, indigenous, productive
-summary: "The Covid19  is apparently the emancipatory force Africa needs in
-  unleashing innovative and productive ideas of the indigenous"
 ---
+
+"The Covid19 is apparently the emancipatory force Africa needs in
+unleashing innovative and productive ideas of the indigenous"
 
 Since the incidence of the Covid19 pandemic in Ghana on the 12th of March 2020, the main preventive protocol adopted by the Health Ministry is the regular hand washing with detergents under running water.
 

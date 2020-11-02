@@ -6,11 +6,12 @@ thumbnail: /images/uploads/growth-factor-purpose-of-existence.webp
 caption: growth factor, the purpose of existence. stages of life of a typical tree
 publishAt: 2020-05-16T07:39:09.891Z
 keywords: purpose of existence, existence, purpose, growth factor, nature.
-summary: Life is dynamic. Not static. It is ever moving forward. Not standing
-  still.  The one unpardonable sin of nature is to stand still, to stagnate. In
-  this article, we will look at the purpose of existence and the four major
-  possible ways to keep growing.
 ---
+
+Life is dynamic. Not static. It is ever moving forward. Not standing
+still. The one unpardonable sin of nature is to stand still, to stagnate. In
+this article, we will look at the purpose of existence and the four major
+possible ways to keep growing.
 
 No one can follow it down through the ages without realizing that the whole purpose of existence is GROWTH. Life is dynamic. Not static. It is ever moving forward. Not standing still. The one unpardonable sin of nature is to stand still, to stagnate.
 

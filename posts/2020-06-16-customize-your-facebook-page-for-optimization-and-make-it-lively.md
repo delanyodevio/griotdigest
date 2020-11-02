@@ -6,15 +6,16 @@ thumbnail: /images/uploads/facebook-page-image-10101043.webp
 caption: Facebook on mobile device
 publishAt: 2020-06-16T17:19:51.440Z
 keywords: Facebook, social branding, social media, Facebook Page, Marketing and Business
-summary: Facebook is still among the top social media platform in the world. Two
-  billion people visit Facebook a month. Two-thirds of adults use Facebook and
-  three-quarters of those users visit the network every day. Every year, despite
-  the media and the governments' obsession with Facebook’s laissez-faire data
-  practices, their user-base grows by 13%. This means that Facebook is the best
-  place for you to market your business. For you to put your business on
-  Facebook, you need a page. To capture the largest audience possible, you need
-  to optimize. How do you optimize your Facebook page? Let's just find out.
 ---
+
+Facebook is still among the top social media platform in the world. Two
+billion people visit Facebook a month. Two-thirds of adults use Facebook and
+three-quarters of those users visit the network every day. Every year, despite
+the media and the governments' obsession with Facebook’s laissez-faire data
+practices, their user-base grows by 13%. This means that Facebook is the best
+place for you to market your business. For you to put your business on
+Facebook, you need a page. To capture the largest audience possible, you need
+to optimize. How do you optimize your Facebook page? Let's just find out.
 
 For a while ago, it seemed, Facebook was only a scam for marketers. You would create a page and promote ("boost") it only to find a minimal increase in likes and engagement. Facebook must have realized marketers were catching on because today, Facebook Pages greatly do benefit businesses. I gathered some tips on how to customize your Facebook page to get the maximum possible result in terms of engagement and reach. Let's just look at them.
 

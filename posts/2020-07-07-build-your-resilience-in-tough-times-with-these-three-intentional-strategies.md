@@ -6,10 +6,11 @@ thumbnail: /images/uploads/build-your-resilience-in-tough-times.webp
 caption: A flower germinating through a hard soil
 publishAt: 2020-07-07T18:12:38.480Z
 keywords: Productivity, Resilience, Tough Times, Priority, Gratitude and Optimism
-summary: "They come. They go. But I'm still here. This is what a friend told
-  me concerning the things happening through her life. Yes, this life is like a tide. Periodically
-  changing phases. At a point, we are running, and always busy. But it seemed we're getting nowhere."
 ---
+
+"They come. They go. But I'm still here." This is what a friend told
+me concerning the things happening through her life. Yes, this life is like a tide. Periodically
+changing phases. At a point, we are running, and always busy. But it seemed we're getting nowhere.
 
 We would wake up, check our phones, go to work, check our phones, stay busy, check our phones, sleep, and do it all over again. Some days were great, some other days were distasteful, and most were okay.
 

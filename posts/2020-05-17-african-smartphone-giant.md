@@ -6,12 +6,13 @@ thumbnail: /images/uploads/wjupkbwhmvkpu0oziry5bb472e7a6254.webp
 caption: Transsion Holdings, the African Smartphone Giant!
 publishAt: 2020-05-17T18:31:23.774Z
 keywords: Transsion, Transsion Holdings, Tecno, Infinix, iTel
-summary: Smartphone brand penetration into the African market over the years has
-  been very slow. Nokia and Samsung took the lead in this struggle and has
-  served us well until our needs shifted. Unfortunately, these two seem to lose
-  the fight to China's Tecno, Infinix, iTel, Huawei and Xiaomi. How did this
-  happen?
 ---
+
+Smartphone brand penetration into the African market over the years has
+been very slow. Nokia and Samsung took the lead in this struggle and has
+served us well until our needs shifted. Unfortunately, these two seem to lose
+the fight to China's Tecno, Infinix, iTel, Huawei and Xiaomi. How did this
+happen?
 
 In Africa, more specifically Ghana, the average smart phone user who wants to buy a new smart phone is more likely to choose between Tecno, Itel or Infinix than any other smartphone brand. This has been so for sometime now because these three mobile brands are just what we needed; budget-friendly(entry-level to mid-range) devices and offer two or more GSM SIM card slots as well as packs a huge battery!
 

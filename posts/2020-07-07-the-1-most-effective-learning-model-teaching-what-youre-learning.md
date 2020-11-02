@@ -6,11 +6,12 @@ thumbnail: /images/uploads/2017-05-23-16-13-10-900x502.jpg
 caption: Learning how to learn
 publishAt: 2020-07-07T21:57:18.421Z
 keywords: Learning, Education, Teaching, Learning Journal, Learning how to learn
-summary: Learning how to learn has been identified as one of the most required
-  skills for the future of work. Learning faster than others is the ultimate,
-  lasting competitive advantage. The single most important skill for
-  self-development is the ability to expand your knowledge base.
 ---
+
+Learning how to learn has been identified as one of the most required
+skills for the future of work. Learning faster than others is the ultimate,
+lasting competitive advantage. The single most important skill for
+self-development is the ability to expand your knowledge base.
 
 At no stage of life one have to stop learning. But have you ever wondered what’s the fastest, most effective way to learn? What’s the secret to remembering what you learn?
 

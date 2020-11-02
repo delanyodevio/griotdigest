@@ -6,10 +6,11 @@ thumbnail: /images/uploads/screenshot_20200528-065726_1590649187042.webp
 caption: Helping hand
 publishAt: 2020-05-28T07:04:34.595Z
 keywords: Motivation, help, comfort zone, goal
-summary: Sometimes we need to become uncomfortable so we can also make others
-  comfortable. Some of us have the capacity to pull others out of the pit. We
-  can push others a little bit into the limelight.
 ---
+
+Sometimes we need to become uncomfortable so we can also make others
+comfortable. Some of us have the capacity to pull others out of the pit. We
+can push others a little bit into the limelight.
 
 We can help people to be halfway into their destiny. We can be that bridge that links others to their goals. It takes just one decision to do that. Don't wait for others to come begging you, kneel down for you, weep at your feet before you help them because tables do turn. You were blessed to be a blessing onto others so learn to have compassion for others.
 

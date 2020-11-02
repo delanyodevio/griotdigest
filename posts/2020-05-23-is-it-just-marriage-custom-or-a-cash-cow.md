@@ -6,9 +6,10 @@ thumbnail: /images/uploads/screenshot_20200523-155019_1590261474502.png
 caption: The marital union
 publishAt: 2020-05-23T00:00:00.000Z
 keywords: love, marriage, list
-summary: These days, young people seem to be frustrated when it comes to the
-  idea of marriage because of how expensive it is.
 ---
+
+These days, young people seem to be frustrated when it comes to the
+idea of marriage because of how expensive it is.
 
 It is believed that marriage is the official channel through which God uses to continue the creation of human beings. All over the world, marriage is very essential and in Africa, it is a great deal. Marriage is a major link that connects two different families together, so there's so much pride attached to it.
 

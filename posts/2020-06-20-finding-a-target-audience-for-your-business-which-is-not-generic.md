@@ -6,11 +6,12 @@ thumbnail: /images/uploads/narrowing-down-target-audience-20-06-2020.webp
 caption: An image of how to narrow down target audience
 publishAt: 2020-06-20T13:03:52.311Z
 keywords: Customer Engagement, target audience, generic labels, stereotypes
-summary: In this article we'll answer; 1. why you should avoid generic
-  descriptions of your target audience. 2. what's a good way to define your
-  target audience. 3. and how does this help out to stand out from your
-  competition.
 ---
+
+In this article we'll answer; 1. why you should avoid generic
+descriptions of your target audience. 2. what's a good way to define your
+target audience. 3. and how does this help out to stand out from your
+competition.
 
 **Soccer moms**. **Teens**. **Yuppies**. You might hear businesses use labels like these when they talk about target audiences. It helps them narrow down their ideal customers into an easy group to market to. It really makes sense in theory. Can a generic target audience like **soccer moms** really help you do the best marketing? Let's find out.
 

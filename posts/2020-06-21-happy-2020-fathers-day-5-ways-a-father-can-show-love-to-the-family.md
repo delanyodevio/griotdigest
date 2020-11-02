@@ -6,9 +6,10 @@ thumbnail: /images/uploads/happy-2020-fathers-day.webp
 caption: A picture of a fahter and a child. Father showing love and care
 publishAt: 2020-06-21T09:50:40.968Z
 keywords: Father's Day, Fatherhood, Love and Care, Happiness
-summary: The father of a righteous child has great joy; a man who fathers a wise
-  son rejoices in him. Proverbs 23:24
 ---
+
+"The father of a righteous child has great joy; a man who fathers a wise
+son rejoices in him." Proverbs 23:24.
 
 Being a father is a privilege. Being able to father a wise and a righteous child is a title and takes energy. In this story we'll look at five sure ways a father can radiate love to the family.
 

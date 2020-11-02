@@ -6,17 +6,18 @@ thumbnail: /images/uploads/picsart_06-17-06.23.39.webp
 caption: Legal Education
 publishAt: 2020-06-17T19:39:07.155Z
 keywords: Next of Kin, Succession, Inheritance, Succession Law
-summary: The term “Next Of Kin” in simple terms, does not confer the right of
-  Inheritance or succession on the person so named. Of what use is the term?
 ---
 
-INTRODUCTION:
+### INTRODUCTION:
+
+The term “Next Of Kin” in simple terms, does not confer the right of
+Inheritance or succession on the person so named. Of what use is the term?
 
 The meaning and the legal implication of the term “next of kin” have been constantly misunderstood by the ordinary public. It appears, though erroneously, that many people think that once you are appointed the next of kin of a person, it automatically gives you the right to inherit the person’s estate upon his demise. In fact, many people think that, a next of kin gives an exclusive right over a person’s property.
 
 The above erroneous believe and understanding of the term next of Kin has made many people to shy away from the need to make a Will. This is because, they think appointing a Next of Kin, is a way of naming your beneficiary. However, the above assumption is not in conformity with the law. It must be noted that, ignorance of the law is not an excuse.
 
-WHAT THEN IS THE MEANING OF THE TERM “NEXT OF KIN”?
+### WHAT THEN IS THE MEANING OF THE TERM “NEXT OF KIN”?
 
 The term, next of Kin has been described as the nearest blood relative of a person. See JOSEPH v FAJEMILEHIN O.O & Anor (2012) LPELR-9849(CA). The term can also refer to a person who can be contacted or notified in cases of emergencies or eventualities. For instance, one of the forms that is usually filled while on transit, requires the information of next of kin. This is needed in case of any accident. In other words, where there is an accident involving that person, his next of kin shall be notified or informed.
 
@@ -32,7 +33,7 @@ On the other hand, in a situation where the deceased died intestate (that is, wi
 
 In other words, Succession is regulated by law. It is only those entitled by law to inherit a deceased person’s estate that can do so. A next of Kin is not one of such persons. However, this is without prejudice to his right to inherit on a personal ground. Thus, if the person so named as a next of kin is the son of the deceased, he is entitled to inherit, not as a next of kin, but because he is the legitimate son of the deceased. Also, if the person so named as a next of kin, is also named in a valid Will made by the deceased, he is entitled to an inheritance not because he is a next of kin, rather, because, he is named in the WILL.
 
-CONCLUSION
+### CONCLUSION
 
 A next of kin, who is usually a blood relative, though not always, has no legal right of inheritance by virtue of his status as a next of kin simpliciter. However, it must be noted that the appointment of a next of kin is not a means or method of naming an heir.
 

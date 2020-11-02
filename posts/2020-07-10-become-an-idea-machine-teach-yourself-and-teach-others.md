@@ -6,8 +6,9 @@ thumbnail: /images/uploads/become-an-idea-machine-colearning.webp
 caption: Thought leadership - ducklings following an elderly duck
 publishAt: 2020-07-10T08:33:05.437Z
 keywords: Education, Teaching and Learning, Co-Learning, solo-conversation, Idea  Machine, Learning to learn
-summary: "If you haven' found something strange during the day, it hasn't' been much of a day. - John Archibald Wheeler"
 ---
+
+"If you haven' found something strange during the day, it hasn't' been much of a day." - John Archibald Wheeler
 
 Well similarly, if you haven't teach something strange in a week, it hasn't been much of a week.
 

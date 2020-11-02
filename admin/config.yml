@@ -1,0 +1,72 @@
+backend:
+  name: git-gateway
+  repo: delanyodevio/griotdigest
+  branch: master
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+site_url: https://www.griotdigest.com
+site_logo: https://www.griotdigest/images/logo.png
+
+collections:
+  - label: "Business and Economics"
+    name: "businesses"
+    folder: "collections/businesses"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options:
+            [
+              "Self-help",
+              "Health",
+              "Africana",
+              "Financial",
+              "Resilience",
+              "Wellness",
+              "Education",
+              "Attitude",
+              "Techs",
+              "Legal",
+              "Meaning",
+              "Marketing",
+              "Branding",
+              "Political",
+              "Culture",
+              "Reviews",
+              "Family",
+              "Time",
+              "Fun & Humor",
+              "Relationship",
+              "History",
+              "Business",
+              "Poems",
+              "Productivity",
+              "Hope, Faith & Love",
+              "DIY",
+              "Failure",
+              "Writing",
+              "Innovation",
+              "Success",
+              "Work",
+              "Humor",
+              "Opportunity",
+              "Sanitation",
+            ],
+        }
+      - {
+          label: "Author",
+          name: "author",
+          widget: "select",
+          options:
+            ["Rita Mesiwotso Batse", "delanyo agbenyo", "Godson Seneadza"],
+        }
+      - { label: "Featured image", name: "thumbnail", widget: "image" }
+      - { label: "Image description", name: "caption", widget: "string" }
+      - { label: "Publish date", name: "publishAt", widget: "date" }
+      - { label: "keywords", name: "keywords", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
