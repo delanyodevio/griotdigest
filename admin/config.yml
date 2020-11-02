@@ -9,9 +9,9 @@ site_url: https://www.griotdigest.com
 site_logo: https://www.griotdigest/images/logo.png
 
 collections:
-  - label: "Business and Economics"
-    name: "businesses"
-    folder: "collections/businesses"
+  - label: "Article Posts"
+    name: "posts"
+    folder: "posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
