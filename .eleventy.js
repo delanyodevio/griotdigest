@@ -117,8 +117,4 @@ module.exports = function (config) {
     }
     return minified.code;
   });
-
-  // RSS Plugin
-  const pluginRSS = require("@11ty/eleventy-plugin-rss");
-  config.addPlugin(pluginRSS);
 };
