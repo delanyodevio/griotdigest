@@ -9,29 +9,25 @@
       }
       body {
         font-family: Gadugi, Verdana, Helvetica, Arial, sans-serif;
-        box-sizing: border-box;
         margin: 0;
         padding: 0;
         border: 0;
       }
 
-      header {
-        color: #303030;
+      thead td {
+        padding: 18px 48px;
         background-color: #16e0bd;
-        padding: 1rem 2rem;
-        margin-bottom: 2rem;
+        color: #303030;
       }
 
-      main {
-        padding: 0 3rem;
-      }
-
-      p {
-        margin: 0;
+      tbody td {
+        padding: 0 48px;
       }
 
       .intro {
         color: #f10808;
+        margin-bottom: 0;
+        margin-top: 48px;
       }
 
       .bold {
@@ -40,80 +36,80 @@
 
       .link {
         background-color: #16e0bd;
-        padding: 0.5rem 1rem;
-        border-radius: 0.2rem;
+        padding: 8px 16px;
+        border-radius: 4px;
         text-decoration: none;
-        margin-top: 2rem;
+        margin-top: 24px;
+        margin-bottom: 48px;
         display: block;
-        width: max-content;
-        color: #300330;
+        width: 130px;
+        color: #303030;
       }
 
-      footer {
-        margin-top: 2rem;
+      tfoot td {
+        padding: 12px;
         background-color: #303030;
-        padding: 1rem 3rem;
       }
 
-      .first {
-        margin-bottom: 1rem;
-      }
-
-      footer ul {
+      tfoot tr {
         display: flex;
-        list-style-type: none;
-        padding: 0;
         flex-wrap: wrap;
       }
 
-      .mgr {
-        margin-right: 1rem;
-      }
-
-      .mgt {
-        margin-top: 0.8rem;
+      tfoot a {
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 10px;
       }
     </style>
   </head>
   <body>
-    <header>
-      <p>
-        GRIOT DIGEST <br />
-        smart stories for your ideas.
-      </p>
-    </header>
+    <table>
+      <thead>
+        <tr>
+          <td>
+            GRIOT DIGEST <br />
+            smart stories for your ideas.
+          </td>
+        </tr>
+      </thead>
 
-    <main>
-      <p class="intro">Dear Friend,</p>
-      <p class="mgt">
-        Thank you so much for your trust! Please
-        <span class="bold">confirm your subscription below</span>
-        and we'll all set for exploring smart stories.
-      </p>
-      <p class="mgt">Of course, you can unsubscribe anytime.</p>
+      <tbody>
+        <tr>
+          <td><p class="intro">Dear Friend,</p></td>
+        </tr>
 
-      <a class="link" href="{{ confirmation_link }}">Confirm and finish</a>
-    </main>
+        <tr>
+          <td>
+            <p>
+              Thank you so much for your trust! Please
+              <span class="bold">confirm your subscription below</span>
+              and we'll all set for exploring smart stories.
+            </p>
+            <p>Of course, you can unsubscribe anytime.</p>
+          </td>
+        </tr>
 
-    <footer>
-      <ul class="first">
-        <li>
-          <a href="https://twitter.com/griotstories" class="mgr">Twitter </a>
-        </li>
-        <li><a href="https://fb.me/griotstudio">Facebook </a></li>
-      </ul>
+        <tr>
+          <td>
+            <a class="link" href="{{ confirmation_link }}"
+              >Confirm and finish</a
+            >
+          </td>
+        </tr>
+      </tbody>
 
-      <ul>
-        <li>
-          <a href="https://griotdigest.com/contact" class="mgr">Contact</a>
-        </li>
-        <li>
-          <a href="https://griotdigest.com/about" class="mgr">About</a>
-        </li>
-        <li>
-          <a href="https:griotdigest.com/policy/privacy">Privacy</a>
-        </li>
-      </ul>
-    </footer>
+      <tfoot>
+        <tr class="footer">
+          <td>
+            <a href="https://twitter.com/griotstories">Twitter</a>
+            <a href="https://fb.me/griotstudio">Facebook</a>
+            <a href="https://griotdigest.com/contact">Contact</a>
+            <a href="https://griotdigest.com/about">About</a>
+            <a href="https:griotdigest.com/policy/privacy">Privacy</a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
