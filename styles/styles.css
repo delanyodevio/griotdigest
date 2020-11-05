@@ -101,7 +101,7 @@ figcaption {
 }
 
 blockquote {
-  font-size: 1.4rem;
+  font-size: smaller;
   margin: 1.5rem auto;
   font-style: oblique;
   color: #555;
@@ -220,24 +220,6 @@ button:focus {
 
 /* Cookies */
 
-/* Current page */
-.page-home .home-page,
-.page-blog .blog-page,
-.page-music .music-page,
-.page-learn .learn-page,
-.page-poem .poem-page,
-.page-video .video-page,
-.page-research .research-page,
-.page-news .news-page,
-.page-search .search-page,
-.page-research .research-page,
-.page-about .about-page,
-.page-upload .upload-page {
-  color: var(--dark);
-  border-color: var(--dark);
-}
-/* current page */
-
 .reprint {
   padding: 0.5rem 1.5rem;
   background-color: #ededed;
@@ -304,6 +286,18 @@ button:focus {
 
 #griots {
   list-style-type: none;
+}
+
+.advertisement {
+  border: 0.1rem solid #ddd;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.advertisement p {
+  margin-top: 0;
+  color: red;
 }
 
 /* --------------- Global Settings ---------------*/
@@ -602,16 +596,12 @@ section article ul li:first-child {
 }
 
 .more-articles h3 {
-  margin: 2rem 0 0 0;
+  margin: 0;
 }
 
 .more-articles h3 a,
 .more-articles a h3 {
   width: max-content;
-}
-
-.more-articles div {
-  margin-top: 1.5rem;
 }
 
 .more-articles div a {
@@ -705,6 +695,10 @@ section article ul li:first-child {
   border: none;
 }
 
+.comment-card .newsletter-section {
+  margin-top: 2rem;
+}
+
 /* x Comments x */
 
 /* User Dashboard */
@@ -717,12 +711,16 @@ section article ul li:first-child {
 
 .dashboard {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 0.5rem;
 }
 
 .byline p {
   margin: 0;
+}
+
+.byline a {
+  font-size: smaller;
 }
 
 .dashboard img {
@@ -737,26 +735,17 @@ section article ul li:first-child {
   flex-direction: column;
 }
 
-.bio-details small {
-  border-radius: 2rem;
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 0.2rem 0.5rem;
-  border: 0.1 solid var(--accent);
-  border-radius: 2rem;
-}
-
 .bio-social {
   margin: 1rem 0;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.3rem;
   border: 0.1rem solid var(--accent);
-  border-radius: 0.3rem;
+  border-radius: 0.2rem;
 }
 
 .bio-social a {
   border: none;
   padding: 0 0.3rem;
-  font-size: 1.3rem;
+  font-size: small;
 }
 
 .edited-bio {

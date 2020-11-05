@@ -56,6 +56,17 @@
             <figcaption>{{ caption }}</figcaption>
           </figure>
 
+          <!-- Ads - AdsTerra -->
+          <div class="advertisement">
+            <p>Adverts ahead! Please take caution.</p>
+            <script
+              async="async"
+              data-cfasync="false"
+              src="//pl15907079.bestrevenuenetwork.com/9ad21db1c59d04b8310fa769415b4e1e/invoke.js"
+            ></script>
+            <div id="container-9ad21db1c59d04b8310fa769415b4e1e"></div>
+          </div>
+
           {{ content | safe }}
 
           <button class="sharer">Share this story</button>
@@ -63,14 +74,51 @@
 
         <!-- Ads - AdCash -->
         <div class="advertisement">
-          <p>Adverts ahead!</p>
+          <p>Adverts ahead! Please take caution.</p>
           <div id="awn-z3861003"></div>
         </div>
       </section>
 
       <section class="article-flex">
-        <!-- author card -->
-        {% include components/author.html %}
+        <div class="more-articles">
+          <!-- author card -->
+          {% include components/author.html %}
+
+          <div>
+            <!-- from the same author -->
+            <h3>
+              Also from
+              <a href="/authors/{{ author | slug }}.html">
+                {{ author | capitalize }}
+              </a>
+            </h3>
+            <div>
+              {% for item in collections.authors[author] limit:5 %} {% if
+              item.url == page.url %} {% continue %} {% else %}
+              <a href="{{ item.url | url }}" class="more-card">
+                <img src="{{ item.data.thumbnail }}" alt="" />
+                <h4>{{ item.data.title | short }}</h4>
+              </a>
+              {% endif %} {% endfor %}
+            </div>
+
+            <h3>
+              Also in
+              <a href="/categories/{{ category | slug }}.html">
+                {{ category | capitalize }}
+              </a>
+            </h3>
+            <div>
+              {% for post in collections.categories[category] limit:5 %} {% if
+              post.url == page.url %} {% continue %} {% else %}
+              <a href="{{ post.url | url }}" class="more-card">
+                <img src="{{ post.data.thumbnail }}" alt="" />
+                <h4>{{ post.data.title | short }}</h4>
+              </a>
+              {% endif %} {% endfor %}
+            </div>
+          </div>
+        </div>
 
         <div class="comment-card">
           <!--Comment form component-->
@@ -85,17 +133,6 @@
               <ul id="posted-comments"></ul>
             </div>
 
-            <!-- Ads - AdsTerra -->
-            <div class="advertisement">
-              <p>Adverts ahead!</p>
-              <script
-                async="async"
-                data-cfasync="false"
-                src="//pl15907079.bestrevenuenetwork.com/9ad21db1c59d04b8310fa769415b4e1e/invoke.js"
-              ></script>
-              <div id="container-9ad21db1c59d04b8310fa769415b4e1e"></div>
-            </div>
-
             <!--Posting comments-->
             <div class="comment-form">
               <p class="comments-closed emphasis">
@@ -107,44 +144,8 @@
               {% include components/comment.html %}
             </div>
           </div>
+          {% include components/newsletter.html %}
         </div>
-
-        <div class="more-articles">
-          <!-- from the same author -->
-          <h3>
-            Also from
-            <a href="/authors/{{ author | slug }}.html">
-              {{ author | capitalize }}
-            </a>
-          </h3>
-          <div>
-            {% for item in collections.authors[author] limit:5 %} {% if item.url
-            == page.url %} {% continue %} {% else %}
-            <a href="{{ item.url | url }}" class="more-card">
-              <img src="{{ item.data.thumbnail }}" alt="" />
-              <h4>{{ item.data.title | short }}</h4>
-            </a>
-            {% endif %} {% endfor %}
-          </div>
-
-          <h3>
-            Also in
-            <a href="/categories/{{ category | slug }}.html">
-              {{ category | capitalize }}
-            </a>
-          </h3>
-          <div>
-            {% for post in collections.categories[category] limit:5 %} {% if
-            post.url == page.url %} {% continue %} {% else %}
-            <a href="{{ post.url | url }}" class="more-card">
-              <img src="{{ post.data.thumbnail }}" alt="" />
-              <h4>{{ post.data.title | short }}</h4>
-            </a>
-            {% endif %} {% endfor %}
-          </div>
-        </div>
-
-        {% include components/newsletter.html %}
       </section>
     </main>
     <!-- ** Main page ** -->
@@ -163,7 +164,6 @@
     {% include components/cookie.html %}
 
     <!-- AdCash ads script -->
-
     <script data-cfasync="false" type="text/javascript">
       var zoneNativeSett = {
         container: "awn",

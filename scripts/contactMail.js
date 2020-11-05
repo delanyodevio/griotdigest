@@ -26,7 +26,7 @@ contactForm.addEventListener("submit", function (e) {
       `);
 
   function sendMail() {
-    let mail = `mailto:hello@griotstudio.com?subject=${subject}&body=${body}`;
+    let mail = `mailto:hello@griotdigest.com?subject=${subject}&body=${body}`;
     window.location.href = mail;
   }
 

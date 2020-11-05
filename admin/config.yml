@@ -8,7 +8,7 @@ site_url: https://www.griotdigest.com
 site_logo: https://www.griotdigest/images/logo.png
 
 collections:
-  - label: "Article Posts"
+  - label: "Article"
     name: "posts"
     folder: "posts"
     create: true
