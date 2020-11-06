@@ -48,6 +48,12 @@ scripts:
       <p class="edited-bio emphasis">loading author bio...</p>
     </div>
 
+    <!-- Ads - Adcash -->
+    <div class="advertisement">
+      <p>Adverts ahead! Please take caution.</p>
+      <div id="awn-z3862695"></div>
+    </div>
+
     <div class="article-container">
       {% for blog in collections.authors[author] limit:30 %}
       <section class="article-card">
@@ -70,5 +76,10 @@ scripts:
       {% endfor %}
     </div>
   </div>
-  {% include components/newsletter.html %}
+  <!-- Ads - AdCash -->
+  <div class="advertisement">
+    <p>Adverts ahead! Please take caution.</p>
+    <div id="awn-z3861003"></div>
+  </div>
 </section>
+{% include components/newsletter.html %}

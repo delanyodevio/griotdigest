@@ -19,6 +19,12 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
 </section>
 
 <section>
+  <!-- Ads - Adcash -->
+  <div class="advertisement">
+    <p>Adverts ahead! Please take caution.</p>
+    <div id="awn-z3862695"></div>
+  </div>
+
   <div class="article-container">
     {% for blog in collections.categories[category] limit:30 %}
     <section class="article-card">
@@ -40,7 +46,13 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
       </p>
     </section>
     {% endfor %}
-    <!-- newsletter -->
-    {% include components/newsletter.html %}
+  </div>
+
+  <!-- Ads - AdCash -->
+  <div class="advertisement">
+    <p>Adverts ahead! Please take caution.</p>
+    <div id="awn-z3861003"></div>
   </div>
 </section>
+<!-- newsletter -->
+{% include components/newsletter.html %}
