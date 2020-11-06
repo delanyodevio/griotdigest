@@ -293,6 +293,7 @@ button:focus {
   padding: 1rem;
   border-radius: 0.5rem;
   margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .advertisement p {
