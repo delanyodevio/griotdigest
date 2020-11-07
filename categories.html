@@ -20,12 +20,25 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
 
 <section>
   <!-- Adverts - AdsTerra -->
-  <script
-    async="async"
-    data-cfasync="false"
-    src="//dangerinsignificantinvent.com/9ad21db1c59d04b8310fa769415b4e1e/invoke.js"
-  ></script>
-  <div id="container-9ad21db1c59d04b8310fa769415b4e1e"></div>
+  <div class="advertisement">
+    <p>Adverts ahead! Please take caution.</p>
+    <script type="text/javascript">
+      atOptions = {
+        key: "7888f839d9b5c011fa58e058591c0edd",
+        format: "iframe",
+        height: 60,
+        width: 468,
+        params: {},
+      };
+      document.write(
+        "<scr" +
+          'ipt type="text/javascript" src="http' +
+          (location.protocol === "https:" ? "s" : "") +
+          '://dangerinsignificantinvent.com/7888f839d9b5c011fa58e058591c0edd/invoke.js"></scr' +
+          "ipt>"
+      );
+    </script>
+  </div>
 
   <div class="article-container">
     {% for blog in collections.categories[category] limit:30 %}
@@ -50,22 +63,16 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
     {% endfor %}
   </div>
 
-  <script type="text/javascript">
-    atOptions = {
-      key: "0f8cebc3ed56e00c9abb43318f3516c9",
-      format: "iframe",
-      height: 50,
-      width: 320,
-      params: {},
-    };
-    document.write(
-      "<scr" +
-        'ipt type="text/javascript" src="http' +
-        (location.protocol === "https:" ? "s" : "") +
-        '://dangerinsignificantinvent.com/0f8cebc3ed56e00c9abb43318f3516c9/invoke.js"></scr' +
-        "ipt>"
-    );
-  </script>
+  <!-- Adverts - AdsTerra -->
+  <div class="advertisement">
+    <p>Adverts ahead! Please take caution.</p>
+    <script
+      async="async"
+      data-cfasync="false"
+      src="//dangerinsignificantinvent.com/9ad21db1c59d04b8310fa769415b4e1e/invoke.js"
+    ></script>
+    <div id="container-9ad21db1c59d04b8310fa769415b4e1e"></div>
+  </div>
 </section>
 <!-- newsletter -->
 {% include components/newsletter.html %}

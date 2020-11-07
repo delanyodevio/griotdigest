@@ -50,12 +50,23 @@ scripts:
 
     <!-- Adverts - AdsTerra -->
     <div class="advertisement">
-      <script
-        async="async"
-        data-cfasync="false"
-        src="//dangerinsignificantinvent.com/9ad21db1c59d04b8310fa769415b4e1e/invoke.js"
-      ></script>
-      <div id="container-9ad21db1c59d04b8310fa769415b4e1e"></div>
+      <p>Adverts ahead! Please take caution.</p>
+      <script type="text/javascript">
+        atOptions = {
+          key: "7888f839d9b5c011fa58e058591c0edd",
+          format: "iframe",
+          height: 60,
+          width: 468,
+          params: {},
+        };
+        document.write(
+          "<scr" +
+            'ipt type="text/javascript" src="http' +
+            (location.protocol === "https:" ? "s" : "") +
+            '://dangerinsignificantinvent.com/7888f839d9b5c011fa58e058591c0edd/invoke.js"></scr' +
+            "ipt>"
+        );
+      </script>
     </div>
 
     <div class="article-container">
@@ -79,6 +90,17 @@ scripts:
       </section>
       {% endfor %}
     </div>
+  </div>
+
+  !-- Adverts - AdsTerra -->
+  <div class="advertisement">
+    <p>Adverts ahead! Please take caution.</p>
+    <script
+      async="async"
+      data-cfasync="false"
+      src="//dangerinsignificantinvent.com/9ad21db1c59d04b8310fa769415b4e1e/invoke.js"
+    ></script>
+    <div id="container-9ad21db1c59d04b8310fa769415b4e1e"></div>
   </div>
 </section>
 {% include components/newsletter.html %}
