@@ -20,7 +20,8 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
 
 <section>
   <!-- Adverts - AdsTerra -->
-  <div class="advertisement">
+  <!-- 
+    <div class="advertisement">
     <p>Adverts! Please take caution.</p>
     <script type="text/javascript">
       atOptions = {
@@ -39,6 +40,7 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
       );
     </script>
   </div>
+   -->
 
   <div class="article-container">
     {% for blog in collections.categories[category] limit:30 %}
@@ -64,7 +66,8 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
   </div>
 
   <!-- Adverts - AdsTerra -->
-  <div class="advertisement">
+  <!-- 
+    <div class="advertisement">
     <p>Adverts! Please take caution.</p>
     <script
       async="async"
@@ -73,6 +76,7 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
     ></script>
     <div id="container-9ad21db1c59d04b8310fa769415b4e1e"></div>
   </div>
+   -->
 </section>
 <!-- newsletter -->
 {% include components/newsletter.html %}
