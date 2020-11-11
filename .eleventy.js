@@ -30,15 +30,9 @@ module.exports = function (config) {
     return moment(date).format("LL");
   });
 
-  // short  excerpt
-  config.addFilter("excerpt", (article) => {
-    let len = 150;
-    return article.substring(0, len);
-  });
-
-  // short summary
+  // shorten a title of article
   config.addFilter("short", (article) => {
-    let len = 80;
+    let len = 100;
     return article.substring(0, len);
   });
 
