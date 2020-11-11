@@ -1,6 +1,6 @@
 ---
 title: Roles of conditional environment.
-category: Attitude
+category: Resilience
 author: delanyo agbenyo
 thumbnail: /images/uploads/icecubes-and-water.webp
 caption: cups of ice cube and water.
