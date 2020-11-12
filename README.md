@@ -1,2 +1,2 @@
-# griotdigest
-Griot Digest
+# [Griot Digest](https:www.griotdigest.com)
+stories for ideas
