@@ -19,6 +19,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("browserconfig.xml");
   config.addPassthroughCopy("netlify.toml");
   config.addPassthroughCopy("functions");
+  config.addPassthroughCopy("_redirects");
 
   // Date formatting (machine readable)
   config.addFilter("dateIso", (date) => {
