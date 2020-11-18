@@ -18,16 +18,12 @@ commentForm.addEventListener("submit", function (event) {
 
   //Get input values
   let name = commentForm.name.value,
-    number = commentForm.phone.value,
-    dialCode = iti.getSelectedCountryData().dialCode,
-    pad = number.startsWith("0") ? number.replace("0", "") : number,
-    phone = dialCode + pad,
     message = commentForm.message.value;
 
   // reply
 
   // data structure
-  let data = { name: name, phone: phone, message: message };
+  let data = { name: name, message: message };
 
   let newRef = ref.push();
 
@@ -106,53 +102,6 @@ window.addEventListener("DOMContentLoaded", function (event) {
 
             let id = replyLink.parentElement.getAttribute("data-id");
             parentId.dataset.docId = id;
-
-            let input = document.querySelector("#rePhone"),
-              errorMsg = document.querySelector(".reError-msg"),
-              validMsg = document.querySelector(".reValid-msg");
-
-            let errorMap = [
-              "Invalid",
-              "Invalid code",
-              "Too short",
-              "Too long",
-              "Invalid",
-            ];
-
-            var iti = window.intlTelInput(input, {
-              autoPlaceholder: "aggressive",
-              initialCountry: "",
-              preferredCountries: ["gh", "ng"],
-              utilsScript: "/scripts/utils.js",
-              hiddenInput: "full",
-              autoHideDialCode: false,
-            });
-
-            let reset = function () {
-              input.classList.remove("error");
-              errorMsg.innerHTML = "";
-              errorMsg.classList.add("hide-notice");
-              validMsg.classList.add("hide-notice");
-            };
-
-            // on blur: validate
-            input.addEventListener("blur", function () {
-              reset();
-              if (input.value.trim()) {
-                if (iti.isValidNumber()) {
-                  validMsg.classList.remove("hide-notice");
-                } else {
-                  input.classList.add("error");
-                  var errorCode = iti.getValidationError();
-                  errorMsg.innerHTML = errorMap[errorCode];
-                  errorMsg.classList.remove("hide-notice");
-                }
-              }
-            });
-
-            // on keyup / change flag: reset
-            input.addEventListener("change", reset);
-            input.addEventListener("keyup", reset);
           });
         });
 
@@ -227,13 +176,9 @@ replyForm.addEventListener("submit", function (event) {
   event.preventDefault();
 
   let replyName = replyForm.reName.value,
-    number = replyForm.rePhone.value,
-    dialCode = iti.getSelectedCountryData().dialCode,
-    pad = number.startsWith("0") ? number.replace("0", "") : number,
-    replyPhone = dialCode + pad,
     replyMessage = replyForm.reMessage.value;
 
-  let replies = { name: replyName, phone: replyPhone, message: replyMessage };
+  let replies = { name: replyName, message: replyMessage };
 
   let parentKey = parentId.dataset.docId;
   console.log("Parent Key", parentKey);
