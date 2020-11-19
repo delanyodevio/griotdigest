@@ -2,7 +2,7 @@
   <ul>
     {% for category in collections.catList limit:15 %}
     <li>
-      <a href="/categories/{{ category | slug }}.html">{{ category }}</a>
+      <a href="/categories/{{ category | slug }}">{{ category }}</a>
     </li>
     {% endfor %}
   </ul>

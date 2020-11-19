@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    {% include components/meta.html %}
+
     <!-- Styles -->
+    <link rel="stylesheet" href="../../styles/intlTelInput.css" />
     <link rel="stylesheet" href="../../styles/webfonts.css" />
     <link rel="stylesheet" href="../../styles/styles.css" />
     <!-- ** Styles ** -->
@@ -20,29 +23,7 @@
     <script defer src="/scripts/cookie.js"></script>
     <!-- scripts -->
 
-    <meta
-      name="keywords"
-      content="Griot Studio, smart stories, {{ category }}"
-    />
-    <meta property="og:title" content="{{ category }} smart stories" />
-    <meta property="twitter:title" content="{{ category }} smart stories" />
-    <meta property="og:description" content="smart stories on {{ category }}" />
-    <meta
-      property="twitter:description"
-      content="smart stories on {{ category }}"
-    />
-
-    <meta
-      property="og:image"
-      property="twitter:image"
-      content="https://www.griotstudio.com/images/logo.webp"
-      content="https://www.griotstudio.com/favicon.ico"
-      alt="Logo of Griot Studio"
-    />
-
-    <meta name="description" content="smart stories on {{ category }}" />
-    <meta name="category" content="{{ category }} smart stories" />
-    <title>{{ category }} stories</title>
+    <title>{{ headline }}</title>
   </head>
   <body class="{{ activePage }}">
     <!-- Page header-->

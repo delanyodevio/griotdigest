@@ -5,7 +5,7 @@ pagination:
   data: collections.authors
   size: 1
   alias: author
-permalink: "authors/{{ author | slug }}.html"
+permalink: "authors/{{ author | slug }}/"
 scripts:
   - "https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"
   - "https://www.gstatic.com/firebasejs/7.13.2/firebase-firestore.js"
@@ -80,7 +80,7 @@ scripts:
         </a>
 
         <p class="footnote">
-          <a href="/categories/{{ blog.data.category | slug }}.html">
+          <a href="/categories/{{ blog.data.category | slug }}">
             <i class="fas fa-tags"></i>
             {{ blog.data.category }}.
           </a>

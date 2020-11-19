@@ -814,7 +814,7 @@ section article ul li:first-child {
 
 /* sharer */
 .share-modal {
-  background-color: var(--dark);
+  background-color: #5a5a5a;
   color: #ddd;
   border-radius: 0.5rem;
   position: fixed;
@@ -834,7 +834,7 @@ section article ul li:first-child {
 }
 
 .share-modal p {
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 
 .share-modal .share-link {

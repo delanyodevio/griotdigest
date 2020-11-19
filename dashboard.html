@@ -13,7 +13,7 @@ pagination:
   data: collections.authors
   size: 1
   alias: author
-permalink: "dashboard/{{ author | slug }}.html"
+permalink: "dashboard/{{ author | slug }}/"
 ---
 
 <section>
@@ -102,7 +102,7 @@ permalink: "dashboard/{{ author | slug }}.html"
         </a>
 
         <p class="footnote">
-          <a href="/categories/{{ blog.data.category | slug }}.html">
+          <a href="/categories/{{ blog.data.category | slug }}">
             <i class="fas fa-tags"></i>
             {{ blog.data.category }}.
           </a>

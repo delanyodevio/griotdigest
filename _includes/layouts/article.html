@@ -5,20 +5,12 @@
     {% include components/meta-article.html %}
 
     <!-- Styles -->
-    <link rel="stylesheet" href="../../../../../styles/intlTelInput.css" />
-
     <link rel="stylesheet" href="../../../../../styles/webfonts.css" />
-
     <link rel="stylesheet" href="../../../../../styles/styles.css" />
     <!-- ** Styles ** -->
 
     <!-- scripts -->
     {% include components/scripts.html %}
-    <script
-      data-ad-client="ca-pub-5551016895151311"
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-    ></script>
     <!-- ** scripts ** -->
 
     <title>{{ title }}</title>
@@ -32,7 +24,7 @@
     <main>
       <div class="sticky-bar">
         <a href="/">Home</a> <span>/</span>
-        <a href="/categories/{{ category | slug }}.html">
+        <a href="/categories/{{ category | slug }}">
           <i class="fas fa-tags"></i>
           {{ category }}
         </a>
@@ -43,7 +35,7 @@
           <h2>{{ title }}</h2>
 
           <small class="article-tag">
-            <a href="/authors/{{ author | slug }}.html">
+            <a href="/authors/{{ author | slug }}">
               <i class="fas fa-user"></i>
               {{ author }}.
             </a>
@@ -112,7 +104,7 @@
             <!-- from the same author -->
             <h3>
               Also from
-              <a href="/authors/{{ author | slug }}.html">
+              <a href="/authors/{{ author | slug }}">
                 {{ author | capitalize }}
               </a>
             </h3>
@@ -128,7 +120,7 @@
 
             <h3>
               Also in
-              <a href="/categories/{{ category | slug }}.html">
+              <a href="/categories/{{ category | slug }}">
                 {{ category | capitalize }}
               </a>
             </h3>
@@ -162,7 +154,7 @@
               <p class="comments-closed emphasis">
                 This comment thread is closed. If you have important information
                 to share, please
-                <a href="/contact.html">contact us</a>
+                <a href="/contact">contact us</a>
               </p>
 
               {% include components/comment.html %}
@@ -181,10 +173,7 @@
     <!-- share modal -->
     {% include components/sharer.html %}
 
-    <script src="/scripts/jquery-1.9.1.min.js"></script>
-    <script src="/scripts/intlTelInput-jquery.js"></script>
-    <script src="/scripts/intlTelInput.js"></script>
-    <script src="/scripts/intlTelInit.js"></script>
+    <!-- cookie -->
     {% include components/cookie.html %}
   </body>
 </html>

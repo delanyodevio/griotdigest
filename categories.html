@@ -5,7 +5,7 @@ pagination:
   data: collections.categories
   size: 1
   alias: category
-permalink: "categories/{{ category | downcase | strip | slug }}.html"
+permalink: "categories/{{ category | downcase | strip | slug }}/"
 ---
 
 <div class="sticky-bar">
@@ -51,7 +51,7 @@ permalink: "categories/{{ category | downcase | strip | slug }}.html"
       </a>
 
       <p class="footnote">
-        <a href="/authors/{{ blog.data.author | slug }}.html">
+        <a href="/authors/{{ blog.data.author | slug }}">
           <i class="fas fa-user"></i>
           {{ blog.data.author }}.
         </a>

@@ -7,21 +7,11 @@ var docTitle = document.title;
 const url = window.document.location.href;
 
 quickShare.addEventListener("click", function (event) {
-  if (navigator.share) {
-    navigator.share({ title: `${docTitle}`, url: `${url}` });
-  } else {
-    event.stopImmediatePropagation();
-    shareModal.classList.add("show");
-  }
+  shareModal.classList.add("show");
 });
 
 sharer.addEventListener("click", function (event) {
-  if (navigator.share) {
-    navigator.share({ title: `${docTitle}`, url: `${url}` });
-  } else {
-    event.stopImmediatePropagation();
-    shareModal.classList.add("show");
-  }
+  shareModal.classList.add("show");
 });
 
 close.addEventListener("click", function () {

@@ -1,5 +1,5 @@
 {
   "layout": "layouts/article.html",
   "tags": ["posts"],
-  "permalink": "blogs/{{ category | strip | slug }}/{{ page.date | date: '%Y/%m/' }}/{{ title | slug | strip }}.html"
+  "permalink": "blogs/{{ category | strip | slug }}/{{ page.date | date: '%Y/%m/' }}/{{ title | slug | strip }}/"
 }

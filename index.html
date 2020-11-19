@@ -6,7 +6,7 @@ description: "Smart stories for your ideas"
 change: "daily"
 pagination:
   data: collections.posts
-  size: 41
+  size: 21
   alias: posts
   reverse: true
 ---
@@ -16,7 +16,7 @@ pagination:
     <ul>
       {% for category in collections.catList limit:15 %}
       <li>
-        <a href="/categories/{{ category | slug }}.html">{{ category }}</a>
+        <a href="/categories/{{ category | slug }}">{{ category }}</a>
       </li>
       {% endfor %}
     </ul>
@@ -37,11 +37,11 @@ pagination:
       </a>
 
       <p class="footnote">
-        <a href="/authors/{{ blog.data.author | slug }}.html">
+        <a href="/authors/{{ blog.data.author | slug }}">
           <i class="fas fa-user"></i>
           {{ blog.data.author }}.
         </a>
-        <a href="/categories/{{ blog.data.category | slug }}.html">
+        <a href="/categories/{{ blog.data.category | slug }}">
           <i class="fas fa-tags"></i>
           {{ blog.data.category }}.
         </a>
